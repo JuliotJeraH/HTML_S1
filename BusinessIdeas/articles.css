@@ -47,10 +47,6 @@ nav ul a {
     top: 65px;
 }
 
-nav ul :active, nav ul a:focus{
-    font-weight: bold;
-    color: rgb(0, 0, 0);
-}
 
 .show_text {
     position: relative;
@@ -404,6 +400,7 @@ footer p {
 
 .active {
     color: black;
+    font-weight: bold;
 }
 
 
