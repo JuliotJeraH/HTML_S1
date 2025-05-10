@@ -1,0 +1,325 @@
+body {
+    position: relative;
+	margin: 0;
+	padding: 10px;
+	font-size: 80%;
+	font-family: Arial, Helvetica, sans-serif;
+	color: white;
+    background-color: white;
+    width: 766px;
+    left: 15%;
+    top: -10px;
+}
+
+body p, h2 {
+    color: black;
+}
+
+body, span, h4{
+    color: red;
+}
+
+nav {
+    background: linear-gradient(to bottom, #ffe100, #ffc400) ;
+    display: flex;
+    border-radius: 0 0 5px 5px;
+    width: 170%;
+}
+
+nav ul {
+    display: flex;
+    gap: 5rem;
+}
+nav ul a {
+    text-decoration: none;
+    color: black;
+    font-size: small;
+}
+
+.active {
+    color: red;
+}
+
+.biz {
+    margin:20px 0 25px 0;
+}
+
+
+.icons {
+    position: relative;
+    display: flex;
+    left: 18%;
+    gap: 3rem;
+}
+
+.btn {
+    cursor: pointer;
+}
+.icons button {
+    position: relative;
+    top: 3px;
+    margin-left: 60px;
+    margin: 5px;
+}
+
+
+.icons .btn1 {
+    background: url(images/pic-home.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 15px;
+    height: 60%;
+    width: 30px;
+    border: none;
+    
+}
+
+
+
+
+
+.icons .btn2 {
+    background: url(images/pic-mail.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 15px;
+    height: 60%;
+    width: 30px;
+    border: none;
+    
+}
+
+
+.icons .btn3 {
+    background: url(images/pic-sitemap.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 15px;
+    height: 60%;
+    width: 30px;
+    border: none;
+}
+
+
+
+.servicesimg {
+    position: absolute;
+    left: 55.6%;
+    top: 20%;
+}
+
+section {
+    display: flex;
+}
+
+.sec2 {
+    margin: 40px 0 0 40px;
+}
+
+.sec2 input {
+    width: 80%;
+    border: 1px solid black;
+    background: none;
+    height: auto;
+}
+
+.sec2 button {
+    background: none;
+    border: none;
+}
+
+.sec2 button:active {
+    opacity: 0.5;
+}
+
+.input-container {
+    display: flex;
+    width: 450%;
+    gap: 10px;
+}
+
+.insurance {
+    margin-top: 70px;
+    width: 300%;
+}
+
+footer {
+    position: relative;
+    left: -32%;
+    text-align: center;
+    border-top: 1px solid  #ff9500 ;
+    width: 210vh;
+    margin-top: 40px;
+}
+
+.footcontent {
+    margin: 20px;
+}
+
+footer a {
+    color: red;
+}
+
+article {
+    display: flex;
+    gap: 5rem;
+    width: 147.5%
+}
+
+.article1 {
+    width:100%;
+    line-height: 1.5;
+    
+}
+
+.article1 .article11 {
+    margin-left: 40px;
+}
+
+.article2 {
+    width: 50%;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex p {
+    margin-left: 20px;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+}
+
+.links a {
+    color: black;
+    line-height: 1.3;
+    margin-bottom: 5px;
+    background-image: url(images/marker.gif);
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 10px;
+}
+
+.more {
+    position: relative;
+    bottom: -5px;
+    text-decoration: none;
+    color: white;
+    background: none;
+}
+
+.morelink {
+    height: 30px;
+    background:linear-gradient(to bottom, #FFEB58, #ff9500) ;
+    text-align: center;
+    width: 35%;
+    height: 4%;
+    border-radius: 3px;
+    margin: 30px;
+    cursor: pointer;
+}
+
+.morelink:active{
+    opacity: 0.5;
+}
+
+.article12 {
+    background-color: rgb(244, 244, 244);
+    border-left:  2px solid rgba(183, 183, 183, 0.278);
+    border-right:  2px solid rgba(183, 183, 183, 0.278);
+    border-bottom:  2px solid rgba(183, 183, 183, 0.278);
+    border-radius: 8px 8px 1px 1px;
+}
+
+.card {
+    display: flex;
+    gap: 3rem;
+}
+
+.ref {
+    display: flex;
+    width: 80%;
+    line-height: 0.7;
+}
+
+.ref1 {
+    margin-right: 10px;
+}
+
+.info {
+    margin-top: -7px;
+}
+
+.name{
+    margin-left: 30px;
+}
+
+.email {
+    margin-left: 29px;
+}
+
+.website {
+    margin-left: 20px;
+}
+
+
+
+.message {
+    margin-left: 20px;
+}
+
+.input-content .name, .email, .website {
+    height: 50%;
+    width: 30%;
+}
+
+/* .article12 {
+    height: 700%;
+} */
+
+.input-content .message {
+    width: 60%;
+    height: 120px;
+}
+
+.input-content {
+    display: flex;
+
+}
+
+.art12content {
+    padding:0 0 50px 40px;
+}
+
+.article12 h2 {
+    background: linear-gradient(to bottom, #ffe100, #ffc400) ;
+    margin-top: 0;
+    padding: 10px;
+    padding-left: 40px;
+    border-radius: 8px;
+}
+
+.sendlink {
+    position: relative;
+    right: -71px;
+    height: 30px;
+    background:linear-gradient(to bottom, #FFEB58, #ff9500) ;
+    text-align: center;
+    width: 20%;
+    height: 4%;
+    border-radius: 3px;
+    margin: 30px;
+    cursor: pointer;
+}
+
+.send {
+    text-decoration: none;
+    color: white;
+}
+
+.icons a {
+    margin-top: 15px;
+}

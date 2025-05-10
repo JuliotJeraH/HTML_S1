@@ -1,0 +1,468 @@
+/* nochange */ 
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+  }
+
+  body {
+    position: relative;
+	margin: 0;
+	padding: 10px;
+	font-size: 80%;
+	font-family: Arial, Helvetica, sans-serif;
+	color: white;
+    background-color: rgb(245, 245, 245);
+    width: 766px;
+    left: 20%;
+}
+
+.top_header {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    gap: 3.2rem;
+    margin-left: 110px;
+}
+
+nav ul a {
+    position:relative;
+    font-weight: 500;
+    color: rgb(100, 100, 100);
+    text-decoration: none;
+    top: 65px;
+}
+
+nav ul :active, nav ul a:focus{
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+
+.show_text {
+    position: relative;
+    top: -390px;
+    float: right;
+    right: -150px;
+    font-size: 25px;
+    text-align: right;
+}
+
+.show_text button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.show_text img {
+    border-radius: 50px;
+}
+
+.show_text button :active {
+    opacity: 0.5;
+}
+
+.show_text h3 {
+    color: rgb(206, 255, 47);
+}
+
+ section{
+    margin-top: 100px;
+    display: flex;
+    width: 100%;
+}
+
+.sec1 {
+    width: 120%;
+}
+
+.sec1 p {
+    color:  rgb(100, 100, 100);
+}
+
+.sec1, .sec2 {
+    margin-left: 30px;
+}
+
+.sec2 {
+    margin-right: 50px;
+}
+
+section a, footer a {
+    color: rgb(98, 162, 1);
+}
+
+section h3, section h4, article h3, section p {
+    color: black;
+    font-size: 150%;
+}
+
+section h4{
+    font-weight: 100;
+    font-size: 120%;
+}
+
+section h3, article h3 {
+    font-weight: 500;
+    font-size: 150%;
+    margin-bottom: 20px;
+}
+
+section .sec1 h3{
+    border-bottom: 1px solid rgb(203, 203, 203);
+}
+
+section p {
+    font-size: small;
+ 
+}
+
+
+main  {
+    position: absolute;
+    top: 60%;
+}
+
+
+
+article {
+    
+    background-color: rgb(232, 232, 232) ;
+    margin-top: 40px;
+    padding-bottom: 40px;
+    width: -500px;
+}
+
+article h3 {
+    position: relative;
+    top: +30px;
+    left: +70px;
+}
+
+.article_container{
+display: flex;
+gap: 20px;
+justify-content: center;
+
+}
+
+.card {
+    background: linear-gradient(to bottom, #87b909, #2b6118);
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+   
+}
+
+.card p {
+    margin: 10px 30px 30px 30px;
+}
+
+.card h4 {
+    margin: 10px 0 0 30px;
+}
+
+.corner {
+    position: absolute;
+}
+
+.left_top {
+    top:500.6px;
+    left: 40px;
+}
+
+.left_bot {
+    top: 657px;
+    left: 40px;
+    height: 15%;
+    width: 15px;
+}
+
+.right_top {
+    top:500.6px;
+    left: 302px;
+}
+
+.right_bot {
+    left: 302px;
+    top:657px;
+    height: 15%;
+    width: 15px;
+}
+
+.left_top2 {
+    top:500.6px;
+    left: 348px;
+}
+
+.left_bot2 {
+    top: 657px;
+    left: 348px;
+    height: 15%;
+    width: 15px;
+}
+
+.card {
+    height: 310px;
+    width: 90%;
+    border-radius: 10px;
+    margin: 50px;
+    display: flex;
+
+}
+
+.ref {
+    display: flex;
+}
+
+
+.card img {
+    position: relative;
+    top: -8px;
+    right: -20px;
+}
+
+article button {
+    border: 1px solid rgb(232, 232, 232)  ;
+
+} 
+
+.left_top3 {
+    top:500.6px;
+    left: 677px;
+}
+
+.left_bot3 {
+    top: 657px;
+    left: 677px;
+    height: 15%;
+    width: 15px;
+}
+
+.right_top3 {
+    top:500.6px;
+    left: 937.5px;
+}
+
+.right_bot3 {
+    left: 937.5px;
+    top:657px;
+    height: 15%;
+    width: 15px;
+}
+
+article a {
+    color: white;
+}
+
+.sec2 span {
+    color: rgb(98, 162, 1);
+}
+
+.li1 {
+    background: url(images/pic1.gif);
+    background-repeat: no-repeat;
+}
+
+.li2 {
+    background: url(images/pic2.gif);
+    background-repeat: no-repeat;
+}
+
+.li3 {
+    background: url(images/pic3.gif);
+    background-repeat: no-repeat;
+}
+
+.li4 {
+    background: url(images/pic4.gif);
+    background-repeat: no-repeat;
+}
+
+.li5 {
+    background: url(images/pic5.gif);
+    background-repeat: no-repeat;
+}
+
+
+.sec1 li {
+    padding-left: 40px;
+    margin-bottom: 22px;
+}
+
+.sec1 ul {
+    margin-top: 30px;
+    width: 200%;
+}
+
+.sec2 {
+    width: 100%;
+    padding-left: 150px;
+}
+
+.sec2 button {
+    position: relative;
+    background: none;
+    border: none;
+    cursor: pointer;
+    left: -35.9px;
+    margin-top: 10px;
+
+}
+
+section button :active {
+    opacity: 0.5;
+}
+
+.readmore2 {
+    width: 50%;
+    border-radius: 50px;
+    
+}
+
+.sec1 button {
+    position: relative;
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-top: 12px;
+    left: -105px;
+}
+
+.learnmore {
+    position: relative;
+    width: 60%;
+    border-radius: 5px;
+    left: 80px;
+
+}
+
+.link p {
+    position: absolute;
+    color: white;
+    bottom: 15px;
+    font-weight: bold;
+    top: 21.6px;
+    left: 816px;
+}
+
+.sec2 .link img {
+    position: relative;
+    bottom: -20px;
+    width: 200px ;
+    height: 23px;
+}
+
+.sec2 button {
+    position: absolute;
+    right: -470px;
+}
+
+.input-content {
+    display: flex;
+    margin-right: 100px;
+}
+
+.input-content p {
+    width: 18%;
+}
+
+.message {
+    width: 530px;
+    margin-left: 8px;
+    height: 200px;
+}
+
+.input-content p, input {
+    margin-top: 5px;
+    background: none;
+    
+}
+
+input{
+    border: 1px solid black;
+}
+
+.card .ref1 p {
+
+    color:rgb(206, 255, 47);
+    font-weight: bold ;
+}
+
+.card {
+    height: 180px;
+    width: 90%;
+    padding-right:px;
+}
+
+.ref {
+    height: 50%;
+    width: 100%;
+    margin-left: 20px;
+    margin-top: -30px;
+}
+
+.ref2 {
+    position: relative;
+    left: -5px;
+}
+
+.ref1 p, .ref2 p {
+    margin: 11px;
+}
+
+.info strong {
+    color:rgb(206, 255, 47);
+}
+
+.info {
+    margin-top:15px ;
+
+
+}
+
+article {
+    width: 88.5%;
+    height: 300px;
+}
+
+article p {
+    color:  rgb(121, 202, 0) ;
+}
+
+article h4 {
+    font-weight: 100;
+    font-size: 125%;
+}
+
+footer {
+
+    background-color: rgb(70, 70, 70);
+    width: 88.5%;
+    text-align: center;
+    line-height: 1.5;
+
+}
+
+footer p {
+  padding: 30px;
+  
+}
+
+.active {
+    color: black;
+}
+
+
+
+
+
+

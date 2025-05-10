@@ -1,0 +1,438 @@
+body {
+    position: relative;
+	margin: 0;
+	padding: 10px;
+	font-size: 80%;
+	font-family: Arial, Helvetica, sans-serif;
+	color: white;
+    background: url(Images/bg.jpg);
+    left: 19%;
+    top: -10px;
+    max-width: 20vh;
+    overflow-x: hidden;
+}
+
+.socialul3 {
+    color: rgb(100, 100, 100);
+    line-height:2.7;
+    margin-right: 20px;
+    border-collapse: collapse;
+    margin-top: -10px;
+}
+
+.socialul2 {
+    margin-top: -10px;
+}
+
+.socialul2 td p{
+    padding-left: 40px;
+    margin: 9px;
+}
+
+.socialul1 {
+    gap: 2rem;
+    margin-left: -40px;
+}
+
+.socials button{
+    cursor: pointer;
+}
+
+.socials button:active{
+    opacity: 0.5;
+}
+
+.socialul2 li, .socialul3 li, .socialul4 li, table tr td{
+    border-bottom: 1px solid rgb(100, 100, 100);
+}
+
+.socialul2 li {
+    padding-left: 26px;
+    margin-left: -26px;
+}
+
+.socialul4 li {
+    padding-left: 10px ;
+}
+
+.bordertop, .facebook{
+border-top:  1px solid rgb(100, 100, 100);
+}
+
+.follow td p{
+    padding-left: 40px;
+    margin: 9.5px;
+}
+.follow table {
+    margin-top: -12px;
+}
+
+
+.slider {
+    width: 900px;
+}
+
+header {
+    display: flex;
+    padding-bottom: 20px;
+}
+
+nav {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+nav ul {
+    display: flex;
+    gap: 3rem;
+}
+
+.slider img {
+    position: absolute;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav h4 {
+    color: white;
+}
+
+nav p {
+    position: relative;
+    text-align: center;
+    color: rgb(99, 99, 99);
+    font-size: 9px;
+    top: -15px;
+}
+
+nav a img {
+    position: relative;
+    top: -20px;
+}
+
+nav .products, .services, .contacts {
+    position: relative;
+    right: -20px;
+}
+
+.logo {
+    margin-top: 20px;
+}
+
+.slider img {
+    background: linear-gradient(to bottom, #345b00, #376a00, #3a7a00);
+    padding: 0 300px 0 300px;
+    position: absolute;
+    left: -300px;
+    margin-top: -50px;
+
+
+}
+
+.grayitalic {
+    color: rgb(100, 100, 100);
+    font-style: italic;
+}
+
+
+.flex {
+    display: flex;
+    width: 50%;
+}
+
+.socialul1 {
+    display: flex;
+    width: 200%;
+    gap: 0.7rem;
+}
+
+.liflex button {
+    margin-left: 95px;
+    margin-top: 10px;
+    background-color: white;
+    border: none;
+    padding: 8px;
+}
+
+.socials p {
+    position: relative;
+    left: -40px;
+    width: 150px;
+}
+
+.socials {
+    width: 100%;
+}
+
+.socials p, footer p {
+    color: rgb(99, 99, 99);
+}
+
+.socials a, footer a {
+    color: white;
+}
+
+.socials input {
+    background-color: white;
+    border: none;
+    padding: 8px;
+}
+
+::placeholder{
+    font-style: italic;
+}
+
+.socials button {
+    float: right;
+}
+
+
+
+.bg {
+    position: relative;
+    top: -52px;
+    opacity: 0;
+}
+
+.bg2 {
+    position: relative;
+    left: -7px;
+    opacity: 0;
+}
+
+.bg3 {
+    position: relative;
+    left:-14px;
+    opacity: 0;
+}
+.bg4{
+    position: relative;
+    left:-14.7px;
+    opacity: 0;
+}
+
+.socialul2 p {
+    background: url(Images/marker_1.gif);
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 10px;
+}
+
+main h4, main h2, .socials h3 {
+    font-weight: 100;
+    font-size: large;
+}
+
+
+.follow .facebook{
+    background: url(Images/icon1.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 30px;
+}
+
+.follow .twitter{
+    background: url(Images/icon2.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 30px;
+}
+
+.btncontainer{
+    position: relative;
+    top: 320px;
+    right: -420px;
+    z-index: 20;
+}
+
+
+.follow .linkedln{
+    background: url(Images/icon3.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 30px;
+}
+
+
+.follow .delicious{
+    background: url(Images/icon4.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 30px;
+}
+
+.span1{
+    margin-left: 20px;
+}
+
+.span2{
+    margin-left: 44px;
+}
+
+.span3{
+    margin-left: 10px;
+}
+
+
+footer {
+    position: relative;
+    left: -301.5px;
+    background-color: black;
+    width: 1530px;
+    text-align: center;
+    padding: 20px 0 20px 0;
+    margin-bottom: -20px;
+}
+
+
+.active h4 {
+    color: green;
+}
+
+.active p {
+    color: white;
+}
+
+
+
+
+
+.btncontainer button{
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    opacity: 0;
+
+}
+
+.btncontainer .btn1 {
+   background-color: black;
+}
+
+main {
+    position: relative;
+    top: -30px;
+    background-color: white;
+    width: 1532px;
+    left: -302px;
+    height: 705px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+main .round {
+    background: url(Images/dropcap1.gif);
+    background-repeat: no-repeat;
+    background-size: 40px;
+    padding-left: 13px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    color: white;
+    line-height: 0.7;
+
+}
+
+.cards {
+    padding-top: 30px; 
+    margin-left: 19rem;
+    width: 212vh;
+}
+
+.card {
+    line-height: 1.5;
+    width: 210vh;
+    margin-bottom: 20px;
+}
+
+
+
+.card img {
+    width: 120px;
+    height: 120px;
+}
+
+.titleflex {
+    display: flex;
+}
+
+.round p {
+    position: relative;
+    font-weight: bold;
+    font-size: large;
+    top: -5px;
+    margin-left: -3px;
+}
+
+.round span {
+    position: relative;
+    bottom: 3px;
+    font-size: 10px;
+    left: 3px;
+}
+
+
+.flex {
+    display: flex;
+    margin-top: -20px;
+}
+
+.title {
+    display: flex;
+    color: black;
+}
+
+.title h2 {
+    position: relative;
+    top: -9px;
+}
+
+.grids {
+    display: grid;
+    grid-template-areas: "header header header header";
+}
+
+.grid {
+    background-color: green;
+    margin: 1px;
+    text-align: center;
+
+}
+
+.grid1 {
+    background-color: rgb(99, 99, 99);
+}
+
+.grid:active, .grid:focus{
+    background-color: rgb(99, 99, 99);
+}
+
+.flex a {
+    color: green;
+    margin-left: 20px;
+}
+
+.card .flex p {
+    margin-left: 20px;
+    margin-top: -1.5px;
+    margin-bottom: 10px;
+}
+
+.grids {
+    position: relative;
+    width: 200px;
+    display: flex;
+    left: 40rem;
+    
+}
+
+.grids div {
+    align-content: center;
+    height: 30px;
+    width: 30px;
+}
+
+
+

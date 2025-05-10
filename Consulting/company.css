@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+  }
+
+
+  body {
+    background: url(Images/content-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+  }
+
+
+.topheader {
+    display: flex;
+    justify-content: space-between;
+    padding: 43px 290px 0 290px  ;
+    background-color: rgb(30, 30, 30);
+    height: 100px;
+    width: 210vh;
+}
+
+.topheader img {
+    width: 25%;
+    height: 50%;
+}
+
+ header .input-content {
+    display: flex;
+    background: url(Images/search-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+     height: 35px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-top: -10px;
+    padding-left: 10px;
+}
+
+.topheader input {
+    width: 220px;
+    height: 30px;
+    background: none;
+    border: none;
+}
+
+.input-content img {
+    width: auto;
+    height: auto;
+    margin: 10px;
+}
+
+nav ul{
+    background: url(Images/menu-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav img {
+    position: absolute;
+}
+
+.spacer1{
+    height: 50px;
+    margin-top: -15.3px;
+    left: 250px;
+}
+
+.spacer2 {
+    height: 50px;
+    margin-top: -15.3px;
+    left: 450px;
+}
+
+.spacer3 {
+    height: 50px;
+    margin-top: -15.3px;
+    left: 650px;
+}
+
+.spacer4 {
+    height: 50px;
+    margin-top: -15.3px;
+    left: 880px;
+}
+
+.spacer5 {
+    height: 50px;
+    margin-top: -15.3px;
+    left: 1085px;
+}
+
+.spacer6 {
+    position: absolute;
+    height: 50px;
+    margin-top: -15.3px;
+    left: 1285px;
+}
+
+.active {
+    color: black;
+}
+
+.center-shadow {
+    width: 210vh;
+    height: 20px;
+}
+
+.backimg img {
+    width: 20%;
+    margin: 0 150px 0 150px;
+}
+
+.frontimg img {
+    position: relative;
+    top: -92vh;
+    left: 79vh;
+    width: 25%;
+}
+
+.backimg {
+    position: relative;
+    top: -45vh;
+    left: 22vh;
+}
+
+.threeimg {
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+}
+
+main {
+    position: relative;
+    display: flex;
+    margin:10px 40px 40px 0;
+    width: 1100px;
+    line-height: 1.5;
+    left: 33vh;
+    gap: 24rem;
+}
+
+main li {
+    font-size: small;
+    background: url(Images/marker-2.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 20px;
+}
+
+main p {
+    font-size: small;
+}
+
+.main1 h2 {
+    width: 300px;
+}
+
+.main1{
+    width: 131px;
+}
+
+.main2 {
+    width: auto;
+}
+
+main h2 {
+    font-size: 20px;
+}
+
+.card{
+    display: flex;
+    margin:20px 0 0 0;
+    width: 377%;
+}
+
+.main1 img {
+    height: 10%;
+    margin-right: 20px;
+}
+
+.main2 h2 {
+    margin-bottom: 10px;
+}
+
+.flexmain2 {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.main2card1 {
+    margin-right: 10px;
+}
+
+.flexul {
+    display: flex;
+    gap: 1rem;
+    margin-top: 10px;
+}
+
+main h4 {
+    color: rgb(0, 191, 255);
+}
+
+
+
+
+
+footer {
+    background-color: rgb(30, 30, 30);
+    width: auto ;
+}
+.footercontent {
+    position: relative;
+    display: flex;
+    margin: 0 40px 0 40px;
+    width: 500px;
+    line-height: 1.5;
+    left: 35vh;
+}
+ footer h3, footer p{
+    color: white;
+}
+
+footer h3 {
+    font-weight: 100;
+}
+
+footer img {
+    width: 25px;
+}
+
+.footer1,.footer2 {
+    background: none;
+    margin-top: 20px;
+    margin-right: 40px;
+}
+
+.footer1 a{
+    color: rgb(0, 191, 255);
+    margin: 10px;
+}
+
+.linkflex {
+    display: flex;
+    margin-top: 10px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid rgb(80, 80, 80);
+}
+
+.linkflex a {
+    color: rgb(100, 100, 100);
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.linkflex li {
+    line-height: 2;
+
+}
+
+footer input {
+    width: 600px;
+    padding: 5px;
+    margin-top: 4px;
+}
+
+.message {
+    padding-bottom: 150px;
+}
+
+.lastfooter {
+    margin-top: 30px;
+    font-size: small;
+    width: 300px;
+}
+
+.lastfooter p {
+    color: rgb(100, 100, 100);
+
+}
+
+.links{
+    text-align: end;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.lastfooter a {
+    color: rgb(0, 191, 255);
+    text-decoration: none;
+}
