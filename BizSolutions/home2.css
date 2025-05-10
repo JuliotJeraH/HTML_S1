@@ -374,3 +374,7 @@ article {
 .icons a {
     margin-top: 15px;
 }
+
+.active {
+    color: red;
+}
