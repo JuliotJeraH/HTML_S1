@@ -23,7 +23,7 @@ nav {
     background: linear-gradient(to bottom, #ffe100, #ffc400) ;
     display: flex;
     border-radius: 0 0 5px 5px;
-    width: 170%;
+    width: 140%;
 }
 
 nav ul {
